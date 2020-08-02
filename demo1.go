@@ -21,6 +21,7 @@ func main() {
 	fmt.Println(a)
 	var laInterface LessAdder
 	laInterface = &a
-	fmt.Printf("%#v", laInterface)
+	fmt.Printf("%#v,%#v", laInterface, a)
+	
 }
 
